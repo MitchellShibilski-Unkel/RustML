@@ -1,5 +1,5 @@
 # RustML
-Open-source AI Library for Rust <br />
+Open-source AI Library for Rust
 __v1.1__
 
 ## About
