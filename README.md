@@ -1,6 +1,6 @@
 # RustML
 Open-source AI Library for Rust <br />
-__v1.1__
+__v1.2__
 
 ## About
 `RustML` is an AI/machine learning library built for the `Rust` programming language. It's desgined to work similarly to `Python` libraries, such as PyTorch & Tensorflow. 
