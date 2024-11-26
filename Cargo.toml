@@ -1,0 +1,9 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "RustML"
+version = "1.0.0"
+edition = "2024"
+authors = ["Mitchell Shibilski-Unkel"]
+
+[dependencies]
