@@ -25,6 +25,10 @@ impl RustML {
         exp_x.iter().map(|&v| v as f64 / sum_exp_x as f64).sum()
     }
 
+    pub fn gradient(x: f64, y: f64, loss: f64) -> f64 {
+        2.0 * x * (loss - y)
+    }
+
     pub fn ReLU(x: f64) -> f64 {
         x.max(0.0)
     }

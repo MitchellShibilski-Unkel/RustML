@@ -30,3 +30,8 @@ RNN(x: &[f64], y: &[f64], weights: &[f64], bias: f64) -> Vec<f64>
 ```rust
 LSTM(x: &[f64], y: &[f64], weights: &[f64]) -> Vec<f64> 
 ```
+
+- Gradient
+```rust
+gradient(x: f64, y: f64, loss: f64) -> f64
+```
