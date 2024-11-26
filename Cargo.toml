@@ -7,3 +7,5 @@ edition = "2024"
 authors = ["Mitchell Shibilski-Unkel"]
 
 [dependencies]
+libm = "0.2"
+rand = "0.8"
